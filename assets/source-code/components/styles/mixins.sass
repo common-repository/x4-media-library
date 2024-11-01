@@ -1,0 +1,14 @@
+@mixin color($hex, $opacity: 1, $suffix: null)
+  color: rgba($hex, $opacity)$suffix
+
+@mixin border-color($hex, $opacity: 1, $suffix: null)
+  border-color: rgba($hex, $opacity)$suffix
+
+@mixin background-color($hex, $opacity: 1, $suffix: null)
+  background-color: rgba($hex, $opacity)$suffix
+
+@mixin scrollbar-color($hex1, $hex2, $opacity1: 1, $opacity2: 1, $suffix: null)
+  scrollbar-color: rgba($hex1, $opacity1) rgba($hex2, $opacity2)$suffix
+
+@mixin stroke($hex, $opacity: 1, $suffix: null)
+  stroke: rgba($hex, $opacity)$suffix
